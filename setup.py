@@ -38,7 +38,7 @@ CLASSIFIERS = [
 ]
 
 # Built to run with pytest, but not an installation requirement for the API
-INSTALL_REQUIRES = ["coverage>=4.4,<6.0", "typing-extensions"]
+INSTALL_REQUIRES = ["coverage", "typing-extensions"]
 EXTRAS_REQUIRE = {
     "docs": [  # in docs/requirements.txt for RTD
         "coverage>=4.4,<6.0",
